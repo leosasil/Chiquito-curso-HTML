@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8">
+    <title> Mi sitio Web </title>
+  </head>
+
+<body>
+<h1> This is a level 1 heading created using the h1 tag </h1>
+Example
+<br>
+<h1>Heading level 1</h1>
+<h2>Heading level 2</h2>
+<h3>Heading level 3</h3>
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+<h6>Heading level 6</h6>
+<hr>
+<h1> Para colocar lineas que den espacio se usa el codigo marcado en el comentario dentro de la linea 19 
+  del codigo <!-- <hr> al cual se le puede aplicar atributos como lo son Size, noshade, etc... -->
+<hr>
+<h1> Para dejar notas o comentarios se usa el tag <br> marcado en la linea 22 del codigo.
+<!-- He aqui el ejemplo de un comentario -->
+<hr>
+  <h1> HTML Boilerplate </h1>
+<h4> El boilerplate trata de un pedazo de codigo que se usará al inicio de cada sitio web creado, 
+  ese se pone por defaut, ejemplo en el siguiente comentario dentro de la linea 26 del codigo </h4> 
+<!--
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> My website </title>
+  </head>
+  <body>
+    <h1> Hello World </h1>
+  </body>
+</html>
+
+-->
+Dentro del mismo encontramos los siguientes componentes en la linea 41 - 45 del codigo
+<br>
+<!-- 
+<!DOCTYPE> html> = TIPO DE HTML EN USO, en este caso HTML 5
+<html lang = "en"> </html> = Da sentido al html, haciendo que tenga funcion, LANG refiere al idioma 
+en el que sera presentado el website.
+<head> </head> = Como su nombre lo dice es la cabeza del html y como va a funcionar.
+<meta charset = "UTF - 8"> = Se encarga de mostrar el contenido de forma correcta, con sentido y 
+sin errores, ya sea el mostrar emojis de forma correcta, imagenes, texto, etc..
+<body> </body> = Como su nombre lo menciona es el cuerpo y contenido del sitio web. -->
+<br>
+De igual forma todo el boilerplate se pone de forma automatica dentro de Visual Studio opimiento "!" 
+y dando enter a la primer opción
+<br>
+Recomendable borrar la linea de codigo que relaciona el html con internet explorer para tener un codigo
+mas limpio. Codigo que se presenta con un "X-UA-compatible"
+<br>
+<br>
+De igual forma se va apresentar la siguiente nota presentada en la línea numero 54 del codigo
+<!-- 
+<meta name = "viewport" content = "with = device-width, initial-scale = 1.0">
+--> 
+<br>
+En la cual viewport indica al sitio web como mostrar su sitio cuando se abre por primera vez
+<br>
+<hr>
+  <h1> Crea tu propio boilerplate </h1>
+  
+Se empieza creando un "BUN" o moño  en el cual se coloca una etiqueta de apertura y una de cierre a 
+la cual se le añadió un atributo como se presenta en el comentario de la linea 65 del codigo
+<!-- 
+<bun topping="sesame">
+</bun> -->
+<br>
+Para dar un ejemplo. Ya que se pueden usar los nombres que se quieran con los atributos que se quieran 
+sin problema alguno (no a fuerza el "bun")
+<hr>
+  <h1>Parrafos, negritas y cursivas</h1>
+Para crear parrafos se usa la etiqueta P abriendo y cerrando
+<br>
+Ejemplo
+  <p> Parrafo numero 1, ejemplo. </p>
+<br>  
+Para colocar cursiva colocar la etiqueta i o la etiqueta em, siempre de preferencia em
+<br>
+Ejemplo
+<br>
+  <em> Ejemplo numero 1 de cursiva</em>
+<br>
+Para colocar negritas colocar la etiqueta b o de preferencia usar la etiqueta stron
+<br>
+Ejemplo 
+<br>
+  <strong> Ejemplo numero 1 de negrita </strong> 
+<hr>
+  <h1>Listas dentro de HTML</h1>
+  <h3>Dependiendo el tipo de lista se usa el tipo de etiqueta, por ejemplo:</h3>
+<h4>Para una lista de viñetas se usa la etiqueta ul y para poner los puntos de la lista se usa la 
+  etiqueta li </h4>
+<br>
+Ejemplo<br>
+<ul>
+  <li>Ejemplo 1</li>
+  <li>Ejemplo 2</li>
+  <li>Ejemplo 3</li>
+  <li>Ejemplo 4</li>
+ </ul>
+De igual forma se pueden agregar puntos dentro los puntos usando el mismo principio, ejemplo.<br>
+<ul>
+  <li>Ejemplo 1</li>
+  <ul>
+    <li>Ejemplo 1</li>
+    <li>Ejemplo 2</li>
+    <li>Ejemplo 3</li>
+    <li>Ejemplo 4</li>
+</ul>
+  <li>Ejemplo 2</li>
+  <ul>
+    <li>Ejemplo 1</li>
+    <li>Ejemplo 2</li>
+    <li>Ejemplo 3</li>
+    <li>Ejemplo 4</li>
+  </ul>
+ </ul>
+<h4>Para la creacion de listas ordenadas ya sea de forma numerica o alfabetica, etc... se usa la etiqueta ol, 
+  para numericas. De igual forma estas pueden ser modificadas para agregar alfabeticos usando el codigo 
+  type = "i" para romanos o type="a" para alfabeticos</h4>
+<br>
+Ejemplo numerico
+<ol>
+  <li>Ejemplo 1</li>
+  <ol>
+    <li>Ejemplo 1</li>
+    <li>Ejemplo 2</li>
+    <li>Ejemplo 3</li>
+    <li>Ejemplo 4</li>
+</ol>
+  <li>Ejemplo 2</li>
+  <ol>
+    <li>Ejemplo 1</li>
+    <li>Ejemplo 2</li>
+    <li>Ejemplo 3</li>
+    <li>Ejemplo 4</li>
+  </ol>
+ </ol>
+Ejemplo romanos y alfabetico
+<ol>
+  <li>Ejemplo 1</li>
+  <ol type="i">
+    <li>Ejemplo 1</li>
+    <li>Ejemplo 2</li>
+    <li>Ejemplo 3</li>
+    <li>Ejemplo 4</li>
+  </ol>
+  <li>Ejemplo 2</li>
+  <ol type="a">
+    <li>Ejemplo 1</li>
+    <li>Ejemplo 2</li>
+    <li>Ejemplo 3</li>
+    <li>Ejemplo 4</li>
+  </ol>
+ </ol>
+Ejemplo numericos empezando con un numero especifico usando ol start=""
+<ol start="5">
+    <li>Ejemplo 1</li>
+    <li>Ejemplo 2</li>
+    <li>Ejemplo 3</li>
+    <li>Ejemplo 4</li>
+</ol>
+<hr>
+<h1>Incorporacion de imagen en HTML</h1>
+Para la incorporación de imagenes dentro de HTML se requiere de dos elementos <br>
+La etiqueta empezando por img src= <br>
+Seguido del atributo "atributo" el cual puede ser alguna URL de una imagen de internet o archivo 
+local incluido en el directorio del sitio web <br>
+Ejemplo <br>
+<img src="https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2023/02/camara-reflex-2952460.jpg?tf=3840x">
+<br>
+De igual forma puede ser agregada la etiqueta alt="" en caso de un sitio web no ser capaz de renderizar 
+la imagen, este va a describir lo que se presenta en la imagen <br>
+Ejemplo 2 <br>
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mexicodesconocido.com.mx%2Flas-mejores-camaras-fotograficas-para-llevar-a-todos-tus-viajes.html&psig=AOvVaw19Dc1CVIPyHvaN5FmtsoIp&ust=1680149107340000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKCv2KqhgP4CFQAAAAAdAAAAABAk" alt="imagen-de-camara-1">
+<br>
+  <h3>TIP</h3>
+Photobucket es una buena opción para subir una foto y obtener una url que poner en el html 
+<br>
+<br>
+En caso de no poder poner una imagen en nuestro sitio web o esta no aparece, podemos descargar la 
+imagen y alojarla dentro de nuestra carpeta del programa html y en el codigo referirnos a la misma 
+con el nombre .png o en dado caso crear una carpeta dentro de la carpeta del sitio y crear la ruta a la imagen
+<hr>
+ <h1>LINKS</h1>
+  Para agregar links dentro de nuestro sitio web, se usa la etiqueta href. <br>
+Se empieza con la etiqueta a (anclaje), seguido de la etiqueta href (URL), = seguido de la URL, se cierra 
+este apartado, se coloca el texto de lo que el usuario verá subrayado y en color azul donde dara click y 
+se finaliza cerrando a. <br>
+<br>
+Ejemplo <br><strong>
+<a href="https://devdocs.io/html/">ACCESO DIRECTO A TODOS LOS ELEMENTOS, ATRIBUTOS, MISCELANEOS y OBSOLETOS 
+  DE HTML</a></strong>
+<br>
+<br>
+Para la creación de un link en nuestro sitio web o apartado del sitio web dentro del mismo, en la 
+carpeta general de nuestro sitio se va a crear otro archvio .html que tendra el mismo nivel jerarquico 
+que el principal <br>
+<br>
+Ejemplo <br>
+<a href="Hypervinculo ejemplo.html">EJEMPLO</a>
+<hr noshade size="10">
+  <h1>HTML Intermedio</h1>
+<br>
+  <h1>Tablas</h1>
+Para la creacion de tablas haremos uso del elemento table, haciendo saber a HTML que haremos 
+una tabla donde por dentro usaremos el elemento tr para las filas y td para las celdas como en 
+el ejemplo siguiente. <br>
+<table>
+  <tr>
+    <td>Filas</td>
+    <td>Celdas</td>
+  </tr>
+ <tr>
+    <td>Filas</td>
+    <td>Celdas</td>
+    <td>Filas</td>
+    <td>Celdas</td>
+ </tr>
+ <tr>
+    <td>Filas</td>
+    <td>Celdas</td>
+    <td>Filas</td>
+    <td>Celdas</td>
+    <td>Filas</td>
+    <td>Celdas</td>
+  </tr>
+</table>
+De igual forma podemos hacer uso de elementos como: 
+<br>
+thead = Se usa para crear titulos en las columnas de nuestra tabla que de forma 
+predeterminada seran en negritas
+<br>
+Empezamos con thead, seguido del elemento tr y despues pondremos el elemento th donde pondremos los 
+encabezados de la lista
+<br>
+<br>
+Ejemplo 
+<br>
+<br>
+ <table>
+   <thead>
+  <tr>
+    <th>Filas</th>
+    <th>Celdas</th>
+  </tr>
+   </thead>
+ </table>
+ De igual forma para una mejor estructura podemos usar el atributo border para agregar borde a nuestra tabla 
+border="numero de pixeles" 
+<br>
+<br>
+Sin embargo este tipo de atributos que van mas enfocados a la parte de diseño y todo lo visual del sitio, 
+es preferible manejarlo dentro de <b>CSS</b> ya que es el lenguaje indicado para todo relacionado a lo visual
+<br>
+<br>
+De igual para agregar mas formato a nuestro HTML podemos usar las tablas para centrar texto alado, encima o por abajo de una imagen usando el mismo formato para agregar imagen dentro de nuestro td y algun atributo como cellspacing para agregar mas distancia al mismo  
+<br>
+<br>
+EJEMPLO DE UNA TABLA CON TODO LO APRENDIDO
+<br>
+<table border="2" cellspacing="5">
+  <tr>
+    <td></td>
+    <td>FILA 1</td>
+    <td>FILA 2</td>
+    <td>FILA 3</td>
+    <td>FILA 4</td>
+    <td>FILA 5</td>
+  </tr>
+  <tr>
+    <td>COLUMNA 1</td>
+  </tr>
+  <tr>
+    <td>COLUMNA 2</td>
+  </tr>
+  <tr>
+    <td>COLUMNA 3</td>
+  </tr>
+  <tr>
+    <td>COLUMNA 4</td>
+  </tr>
+  <tr>
+    <td>COLUMNA 5</td>
+  </tr>
+</table>
+
+<hr>
+<h1>Formularios en HTML</h1>
+<br>
+Se usara la etiqueta form y sera mostrada de la siguiente forma 
+<br>
+<br>
+form class"" action"nombre del proyecto" method="post" cerramos form
+<br>
+En medio de form vamos a colocar nuestra primer etiqueta label en la cual dentro de ella se va a colocar lo que queremos que el usuario proporcione
+<br>
+Seguido de la funcion input text que permitira al usuario la opción de escribir y despues podemos agregar otro input submit para que se guarde lo anotado
+<br>
+<br>
+De igual forma tenemos muchas opciones de input como las siguientes:
+<br>
+<table cellspacing="4">
+  <tr>
+    <td>Button</td>
+    <td>Checkbox</td>
+    <td>Color</td>
+    <td>date</td>
+    <td>date time-loca</td>
+    <td>email</td>
+    <td>file</td>
+    <td>hidden</td>
+    <td>image</td>
+    <td>month</td>
+    <td>number</td>
+    <td>password</td>
+  </tr>
+  <tr>
+    <td>radio</td>
+    <td>range</td>
+    <td>reset</td>
+    <td>search</td>
+    <td>submit</td>
+    <td>tel</td>
+    <td>text</td>
+    <td>time</td>
+    <td>url</td>
+    <td>week</td>
+  </tr>
+</table>
+<br>
+  Un uso de los forms puede ser un Contact me area, en la cual habrá un espacio para poner nombre, correo electronico y un cuadro de texto donde el usuario podrá poner su petición
+<br>
+En este caso se usaria la etiqueta
+<br>
+<br>
+textarea name="" rows="" cols=""
+<br>
+<br>
+Donde textarea da la entrada al cuadro de texto
+<br>
+rows determina la altura del cuadro
+<br>
+y cols determina lo ancho del mismo
+<br>
+<br>
+De momento nuestro boton submit no tiene uso ya que dentro de la función action"" en la etiqueta form la orden es regresar al menú principal
+<br>
+Action determina donde será mandada la informacion
+<br>
+  Sin embargo para que tenga un uso real se necesita de <strong>CSS</strong> o <strong>Java</strong>
+<br>
+<br>
+Lo que podemos hacer mientras, es dar una funcion basica, como podria serlo mandar la info a un correo electrónico usando "mailto:" y de igual forma usar enctype="text/plain" que su función será validar que nuestro sitio web está codificado en UTF-8
+<br>
+<br>
+  A su vez hay que poner en cada input el nombre de lo que se está haciendo ya que este dará el valor o sentido al mismo
+<br>
+<hr>
+
+
+  </body>
+  </html>
